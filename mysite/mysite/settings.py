@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-tb4m5p%g&-vvk!%^ljkyhhuiaei)n+!y-vs5-g79qm%fh*2du-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['maibamsharat.pythonanywhere.com']
 
@@ -124,7 +124,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # default static files settings for PythonAnywhere.
 # see https://help.pythonanywhere.com/pages/DjangoStaticFiles for more info
-MEDIA_ROOT = '/home/maibamsharat/mysite/media'
+MEDIA_ROOT = '/home/maibamsharat/django/mysite/media'
 MEDIA_URL = '/media/'
-STATIC_ROOT = '/home/maibamsharat/mysite/static'
+STATIC_ROOT = '/home/maibamsharat/django/mysite/static'
 STATIC_URL = '/static/'
